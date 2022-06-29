@@ -221,14 +221,13 @@
 
 /* info - container - main */
 
-.info {
+.info2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 70px;
 }
 
-.info .info__container {
+.info2 .info2__container {
   display: flex;
   align-items: center;
   padding: 60px 0;
@@ -531,7 +530,10 @@
 }
 
 @media (max-width: 1151px) {
-  .info .info__container {
+  .info2 {
+    padding: 0 30px;
+  }
+  .info2 .info2__container {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -590,6 +592,12 @@
   .hero .hero__container .hero__title h1 {
     font-size: 3rem;
   }
+  .info {
+    padding: 0 30px;
+  }
+  .info .info__row .info__col-1 {
+    width: 100%;
+  }
   .our_department_wrapper {
     padding: 10px;
   }
@@ -625,8 +633,11 @@
   .hero .hero__container .hero__title p {
     font-size: 15px;
   }
+  .info .info__row .info__col-1 h2 {
+    font-size: 1.2rem;
+  }
   .info .info__row .info__col-1 p {
-    font-size: 15px;
+    font-size: 14px;
   }
   .services .services__container .services__title h2 {
     font-size: 1.5rem;
